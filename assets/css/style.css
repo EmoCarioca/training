@@ -269,6 +269,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .secphoto{
@@ -277,14 +278,17 @@ header{
 
 .secpha{
     width: 260px;
-    margin-top: 10px;
+    margin: 10px;
     height: 160px;
+    position: relative;
+
 }
 
 
 .secpha img{
     width: inherit;
     height: inherit;
+    
 
 }
 
@@ -292,13 +296,34 @@ header{
     width: 260;
 }
 
+.photoinfo {
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: inherit;
+    opacity: 0;
+    top: 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 
+}
 
 /*
     CSS SPECIFC AREA
 */
 
+.photoinfo h5{
+    font-size: 20px;
+    
+}
 
+
+.photoinfo:hover{
+    opacity: 1;
+}
 
 .secabtu{
     display: flex;

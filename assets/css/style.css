@@ -4,7 +4,9 @@
     padding: 0;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 
 header{
     height: 100px;
@@ -31,6 +33,22 @@ header{
     list-style: none;
 }
 
+.button{
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    border-radius: 30px;
+    width: 150px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    background-color: rgb(26, 95, 26);
+
+}
+
 .menu ul{
     display: flex;
 }
@@ -43,7 +61,6 @@ header{
     text-decoration: none;
     padding: 0px 10px;
     font-weight: bold;
-    display: block;
     color: white;
     display: flex;
     align-items: center;
@@ -61,7 +78,6 @@ header{
 
 
 .logo img{
-    
     width: 150px;
 
 }  
@@ -115,22 +131,6 @@ header{
 }
 
 
-.banner a{
-    font-size: 15px;
-    padding: 10px;
-    margin-top: 30px;
-    font-weight: 600;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    color: white;
-    text-decoration: none;
-    height: 40px;
-    background-color: rgb(26, 95, 26);
-
-}
 
 .banner button{
     text-decoration: none;
@@ -160,4 +160,85 @@ header{
 
 .po:nth-child(1){
     background-color: orange;
+}
+
+.default{
+    padding: 50px 0px;
+    width: 100vw;
+}
+
+.default .tittle, .default .secdesc{
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.default .secdesc{
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 6px;
+    margin-bottom: 40px;
+
+}
+
+.default .tittle{
+    font-size: 20px;
+}
+
+.default .secbody{
+    margin: auto;
+    max-width: 1140px;
+}
+
+.default.light{
+    background-color: #f7f7f7;
+
+}
+
+.default.light .tittle, .default.ligth .secbody{
+    color: black;
+}
+
+.default.dark{
+    background-color: black;
+}
+
+.default.dark .tittle, .default.dark .secbody{
+    color: white;
+}
+
+  
+
+
+
+
+/*
+    CSS SPECIFC AREA
+*/
+
+
+
+.secabtu{
+    display: flex;
+}
+
+.abtuleft{
+    flex:1;
+}
+
+.abturight{
+    width: 520px;
+    text-align: center;
+
+}
+
+.abtuleft p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.abturight img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }

@@ -207,8 +207,90 @@ header{
     color: white;
 }
 
-  
+.neg{
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
 
+.abturight img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+
+.photo img{
+    width: 200;
+    height: 119.844;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.lists{
+    border: 1px solid #CCC;
+    background-color: #EEE;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+    justify-content: center;
+}
+
+.lists ul, .list li{
+    list-style:none;
+}
+
+.lists li{
+    display: inline-block;
+    padding:10;
+    font-size: 13px;
+    border-left: 1px solid #CCC;
+    color: #555;
+    border-bottom: 3px solid #eee;
+
+}
+
+.lists li:hover, .lists .class{
+    border-bottom: 3px solid green;
+}
+
+
+.lists li:first-child{
+    border-left: none;
+}
+
+.secss{
+    width: 100vw;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.secphoto{
+    width: 280px;
+}
+
+.secpha{
+    width: 260px;
+    margin-top: 10px;
+    height: 160px;
+}
+
+
+.secpha img{
+    width: inherit;
+    height: inherit;
+
+}
+
+.photos img{
+    width: 260;
+}
 
 
 
@@ -237,8 +319,32 @@ header{
     line-height: 25px;
 }
 
+.neg{
+    text-align: center;
+}
 
-.abturight img{
-    width: 480px;
-    box-shadow: 0px 5px 10px #333;
+.secbody .negc{
+    display: flex;
+
+}
+
+.texts{
+    margin-top:10px;
+}
+
+.neg .texts p{
+    margin-top: 4px;
+}
+
+.texts h1{
+    font-size: 25;
+    font-weight: 600;
+}
+
+.neg div{
+    margin:5px  15px 0px 15px;
+}
+
+.texts p{
+    font-size: 15px;
 }

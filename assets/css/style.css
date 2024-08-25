@@ -35,6 +35,9 @@ header{
     display: flex;
 }
 
+.menu .class a{
+    border-bottom: 5px solid green;
+}
 
 .menu li a{
     text-decoration: none;
@@ -52,7 +55,7 @@ header{
 .menu li a:hover{
     color: rgb(8, 104, 8);
     transition: 1s;
-    border-bottom: 5px solid beige;
+    border-bottom: 5px solid green;
 
 }
 

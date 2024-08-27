@@ -1,19 +1,19 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-header{
+header {
     height: 100px;
     background-color: black;
 }
 
-.logo{
+.logo {
     margin: auto;
     width: 1140px;
     display: flex;
@@ -23,17 +23,18 @@ header{
     align-items: center;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: flex-end;
     flex: 1;
 }
 
-.menu ul, .menu li{
+.menu ul,
+.menu li {
     list-style: none;
 }
 
-.button{
+.button {
     font-size: 15px;
     padding: 10px 30px;
     margin-top: 30px;
@@ -49,15 +50,15 @@ header{
 
 }
 
-.menu ul{
+.menu ul {
     display: flex;
 }
 
-.menu .class a{
+.menu .class a {
     border-bottom: 5px solid green;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     padding: 0px 10px;
     font-weight: bold;
@@ -69,7 +70,7 @@ header{
     justify-content: space-between;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     color: rgb(8, 104, 8);
     transition: 1s;
     border-bottom: 5px solid green;
@@ -77,36 +78,36 @@ header{
 }
 
 
-.logo img{
+.logo img {
     width: 150px;
 
-}  
+}
 
-.banner{
+.banner {
     background-image: url(/assets/imgs/icegif-1322.gif);
     background-size: cover;
     background-position: center;
-    height:calc(100vh - 100px);
+    height: calc(100vh - 100px);
     background-color: rgba(0, 0, 0, 0);
     flex-direction: column;
     overflow: hidden;
 
 }
 
-.banner .sliders{
+.banner .sliders {
     width: 1000vw;
     height: 100%;
 
 }
 
-.banner .slide{
+.banner .slide {
     width: 100vw;
     height: 100%;
     background-color: rgb(0, 0, 0, 0.8);
     display: inline-block;
 }
 
-.banner .slidea{
+.banner .slidea {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -116,28 +117,28 @@ header{
 
 }
 
-.banner h1{
+.banner h1 {
     font-weight: bold;
     font-size: 55px;
 }
 
-.banner span{
+.banner span {
     color: rgb(29, 138, 29);
 }
 
-.banner h2{
+.banner h2 {
     text-transform: uppercase;
     margin-top: 20px;
 }
 
 
 
-.banner button{
+.banner button {
     text-decoration: none;
     color: white;
 }
 
-.banner .slidersb{
+.banner .slidersb {
     width: 100vw;
     height: 20px;
     display: flex;
@@ -148,32 +149,34 @@ header{
     margin-top: -50;
 }
 
-.banner .po{
+.banner .po {
     cursor: pointer;
     width: 15px;
     height: 15px;
-    border: 2px solid orange;
+    border: 2px solid rgb(26, 95, 26);
     border-radius: 8px;
     margin: 0px 3px;
 
 }
 
-.po:nth-child(1){
-    background-color: orange;
+.po:nth-child(1) {
+    background-color: rgb(17, 66, 17);
+
 }
 
-.default{
+.default {
     padding: 50px 0px;
     width: 100vw;
 }
 
-.default .tittle, .default .secdesc{
+.default .tittle,
+.default .secdesc {
     text-align: center;
     font-weight: 600;
 
 }
 
-.default .secdesc{
+.default .secdesc {
     font-size: 12px;
     color: #ccc;
     margin-top: 6px;
@@ -181,49 +184,51 @@ header{
 
 }
 
-.default .tittle{
+.default .tittle {
     font-size: 20px;
 }
 
-.default .secbody{
+.default .secbody {
     margin: auto;
     max-width: 1140px;
 }
 
-.default.light{
+.default.light {
     background-color: #f7f7f7;
 
 }
 
-.default.light .tittle, .default.ligth .secbody{
+.default.light .tittle,
+.default.ligth .secbody {
     color: black;
 }
 
-.default.dark{
+.default.dark {
     background-color: black;
 }
 
-.default.dark .tittle, .default.dark .secbody{
+.default.dark .tittle,
+.default.dark .secbody {
     color: white;
 }
 
-.neg{
+.neg {
     border-right: 1px solid #333;
     border-left: 1px solid #333;
 }
 
-.abturight img{
+.abturight img {
     width: 480px;
     box-shadow: 0px 5px 10px #333;
 }
 
 
-.photo img{
+.photo img {
     width: 200;
     height: 119.844;
 }
 
-.list{
+.list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,7 +236,7 @@ header{
 
 }
 
-.lists{
+.lists {
     border: 1px solid #CCC;
     background-color: #EEE;
     border-radius: 30px;
@@ -240,13 +245,14 @@ header{
     justify-content: center;
 }
 
-.lists ul, .list li{
-    list-style:none;
+.lists ul,
+.list li {
+    list-style: none;
 }
 
-.lists li{
+.lists li {
     display: inline-block;
-    padding:10;
+    padding: 10;
     font-size: 13px;
     border-left: 1px solid #CCC;
     color: #555;
@@ -254,16 +260,17 @@ header{
 
 }
 
-.lists li:hover, .lists .class{
+.lists li:hover,
+.lists .class {
     border-bottom: 3px solid green;
 }
 
 
-.lists li:first-child{
+.lists li:first-child {
     border-left: none;
 }
 
-.secss{
+.secss {
     width: 100vw;
     max-width: 1140px;
     display: flex;
@@ -272,11 +279,11 @@ header{
     margin-top: 20px;
 }
 
-.secphoto{
+.secphoto {
     width: 280px;
 }
 
-.secpha{
+.secpha {
     width: 260px;
     margin: 10px;
     height: 160px;
@@ -285,19 +292,19 @@ header{
 }
 
 
-.secpha img{
+.secpha img {
     width: inherit;
     height: inherit;
-    
+
 
 }
 
-.photos img{
+.photos img {
     width: 260;
 }
 
 .photoinfo {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     width: inherit;
@@ -311,65 +318,180 @@ header{
 
 }
 
+.teama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: rgba(0, 0, 0, .05) ;
+}
+
+.bgteam{
+    background-image: url(/assets/imgs/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+
+.secteamarea{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding:50px 0px;
+
+}
+
+.secteam {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+
+}
+
+.secteam .sliders {
+    width: 1000vw;
+
+}
+
+.secteam .slide {
+    width: 280px;
+    min-height: 300px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.secteam .slidea {
+    display: flex;   
+     min-height: 300px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    justify-content: center;
+
+}
+
+
+.secteamarea .slidersb {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.secteamarea .po {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(26, 95, 26);
+    border-radius: 8px;
+    margin: 0px 3px;
+
+
+}
+
+.secteamarea .po:hover{
+    background-color: white;
+}
+
+.secteam .social img{
+    width: 20px;
+}
+
+.avatar{
+    width: 200px;
+    height: auto;
+}
+
+.sctn{
+    font-weight: 600;
+    font-size: 17;
+    margin-top: 30px;
+
+}
+
+.sectrow{
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;}
+
+.social{
+    display: flex;
+    margin-top: 20px;
+}
+
+.social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    margin-right: 5px;
+    height: 20px;
+}
+
+
+
+
 /*
     CSS SPECIFC AREA
 */
 
-.photoinfo h5{
+.photoinfo h5 {
     font-size: 20px;
-    
+
 }
 
 
-.photoinfo:hover{
+.photoinfo:hover {
     opacity: 1;
 }
 
-.secabtu{
+.secabtu {
     display: flex;
 }
 
-.abtuleft{
-    flex:1;
+.abtuleft {
+    flex: 1;
 }
 
-.abturight{
+.abturight {
     width: 520px;
     text-align: center;
 
 }
 
-.abtuleft p{
+.abtuleft p {
     font-size: 14px;
     line-height: 25px;
 }
 
-.neg{
+.neg {
     text-align: center;
 }
 
-.secbody .negc{
+.secbody .negc {
     display: flex;
 
 }
 
-.texts{
-    margin-top:10px;
+.texts {
+    margin-top: 10px;
 }
 
-.neg .texts p{
+.neg .texts p {
     margin-top: 4px;
 }
 
-.texts h1{
+.texts h1 {
     font-size: 25;
     font-weight: 600;
 }
 
-.neg div{
-    margin:5px  15px 0px 15px;
+.neg div {
+    margin: 5px 15px 0px 15px;
 }
 
-.texts p{
+.texts p {
     font-size: 15px;
 }

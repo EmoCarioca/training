@@ -431,7 +431,60 @@ header {
 }
 
 
+.sl{
+   display: flex;
+   align-content: center;
+   align-items: center;
+   flex-direction: column; 
+}
 
+.sla{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.joen{
+    margin-top: 30px;
+    line-height: 15px;
+}
+
+.asp{
+    margin-top: 30px;
+    width: 40px;
+}
+
+.sla p{
+    margin-top: 20px;
+    color:#4b4949;
+}
+
+.fbjp img{
+    border-radius: 50%;
+}
+
+
+.sl .slidersb {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.sl .po {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(26, 95, 26);
+    border-radius: 8px;
+    margin: 0px 3px;
+
+
+}
+
+.sl .po:hover{
+    background-color: black;
+}
 
 /*
     CSS SPECIFC AREA

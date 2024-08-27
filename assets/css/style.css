@@ -318,15 +318,15 @@ header {
 
 }
 
-.teama{
+.teama {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 50px;
-    background-color: rgba(0, 0, 0, .05) ;
+    background-color: rgba(0, 0, 0, .05);
 }
 
-.bgteam{
+.bgteam {
     background-image: url(/assets/imgs/giphy.gif);
     background-size: cover;
     background-position: center;
@@ -334,9 +334,9 @@ header {
 }
 
 
-.secteamarea{
+.secteamarea {
     background-color: rgba(0, 0, 0, 0.8);
-    padding:50px 0px;
+    padding: 50px 0px;
 
 }
 
@@ -361,8 +361,8 @@ header {
 }
 
 .secteam .slidea {
-    display: flex;   
-     min-height: 300px;
+    display: flex;
+    min-height: 300px;
     padding: 30px;
     flex-direction: column;
     align-items: center;
@@ -377,7 +377,7 @@ header {
     height: 20px;
     display: flex;
     justify-content: center;
-  
+
 }
 
 .secteamarea .po {
@@ -391,37 +391,38 @@ header {
 
 }
 
-.secteamarea .po:hover{
+.secteamarea .po:hover {
     background-color: white;
 }
 
-.secteam .social img{
+.secteam .social img {
     width: 20px;
 }
 
-.avatar{
+.avatar {
     width: 200px;
     height: auto;
 }
 
-.sctn{
+.sctn {
     font-weight: 600;
     font-size: 17;
     margin-top: 30px;
 
 }
 
-.sectrow{
+.sectrow {
     font-size: 14px;
     color: #999;
-    margin-top: 5px;}
+    margin-top: 5px;
+}
 
-.social{
+.social {
     display: flex;
     margin-top: 20px;
 }
 
-.social a{
+.social a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -430,35 +431,38 @@ header {
     height: 20px;
 }
 
-
-.sl{
-   display: flex;
-   align-content: center;
-   align-items: center;
-   flex-direction: column; 
+.happyclients {
+    background-color: #EDEDED;
 }
 
-.sla{
+.sl {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sla {
     text-align: center;
     margin-top: 25px;
 }
 
-.joen{
+.joen {
     margin-top: 30px;
     line-height: 15px;
 }
 
-.asp{
+.asp {
     margin-top: 30px;
     width: 40px;
 }
 
-.sla p{
+.sla p {
     margin-top: 20px;
-    color:#4b4949;
+    color: #4b4949;
 }
 
-.fbjp img{
+.fbjp img {
     border-radius: 50%;
 }
 
@@ -468,7 +472,7 @@ header {
     height: 20px;
     display: flex;
     justify-content: center;
-  
+
 }
 
 .sl .po {
@@ -482,9 +486,172 @@ header {
 
 }
 
-.sl .po:hover{
+.sl .po:hover {
     background-color: black;
 }
+
+.imgsb {
+    background-color: rgb(243, 235, 235);
+    box-shadow: 5px 5px 5px 5px black;
+    width: 100%;
+}
+
+
+.pricing {
+    background-color: #EDEDED;
+}
+
+.imgs {
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imgs img {
+    width: 200px;
+    margin: 0px 10px;
+
+}
+
+.pric .slide {
+    width: 280px;
+    min-height: 300px;
+    background-color: white;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pric .slidea {
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.pric .sliders {
+    width: 1000vw;
+
+}
+
+
+.pric {
+    display: flex;
+    justify-content: center;
+}
+
+.pric .slidea a {
+    background-color: #373737;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.pric .slidea .chbk {
+    background-color: rgb(2, 66, 6);
+}
+
+.PRICING .secdesc {
+    color: #333;
+}
+
+.seclr {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 3px solid rgb(112, 109, 109);
+
+
+}
+
+.alef {
+}
+
+.alef img {
+    height: 380px;
+}
+
+.firstf {
+    display: flex;
+    align-items: center;
+}
+
+.firstf img {
+    height: 24;
+
+}
+
+.pt {
+    margin-top: 5px;
+}
+
+.hz {
+    margin-top: 10px;
+}
+
+.SECF {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.secf img {
+    height: 24;
+}
+
+.slidersl .slidersb {
+    margin-top: 30px;
+    justify-content: center;
+    height: 20px;
+    display: flex;
+
+}
+
+.slidersl .po {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(26, 95, 26);
+    border-radius: 8px;
+    margin: 0px 3px;
+
+
+}
+.slidersl .atc{
+    margin-top: 10px;
+    margin-left: 498px;
+    align-items: center;
+    display: inline-flex;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 30px;
+
+
+}
+
+.slidersl a{
+    color: white;
+    text-decoration: none;
+}
+
+.slidersl .po:hover {
+    background-color: black;
+}
+
+
+
+
 
 /*
     CSS SPECIFC AREA

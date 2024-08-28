@@ -630,9 +630,11 @@ header {
 }
 .slidersl .atc{
     margin-top: 10px;
-    margin-left: 498px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 151;
     align-items: center;
-    display: inline-flex;
+    display: flex;
     background-color: black;
     padding: 15px 20px;
     border-radius: 30px;
@@ -647,6 +649,191 @@ header {
 
 .slidersl .po:hover {
     background-color: black;
+}
+
+.sfacarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desch{
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.des{
+    margin-top: 10px;
+}
+
+.bordq{
+    display: flex;
+    justify-content: center;
+}
+
+.oneth h1{
+    border-bottom: 3px solid green;
+}
+
+
+.tel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px 4px;
+    
+}
+
+.tel p{
+    font-size: 12px;
+    color: #333;
+
+}
+
+.compart{
+
+    justify-content: center;
+    align-items: center;
+     display: flex;
+}
+
+.compart img{   
+    width: 40px;
+    margin: 0px 9px;
+
+}
+
+.compart h2{
+    margin-right: 40px;
+}
+
+
+.formc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.formarea{
+    display: flex;
+    flex-direction: column  ;
+}
+
+.formarea input{
+    margin: 3px;
+    border: none;
+    border-bottom:1px solid #333;
+    padding: 10px 30px;
+    outline: none;
+}
+
+.formarea a{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 161px;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    
+
+}
+
+.formarea a:hover{
+    border-bottom: 3px solid green;
+}
+
+
+.cscs{
+    width: 100%;
+}
+
+
+
+
+
+.contaz .social img{
+    width: 25px;
+    height: 25px;
+    margin: 0px 3px;
+}
+
+.contaz{
+    max-width: 1140px;
+    flex: 1;
+    display: flex;
+}
+
+.contaza{
+    flex: 1;
+    display: flex;
+}
+
+.social{
+    display: flex;
+    justify-content: start;
+}
+.pzin{
+    display: flex;
+    align-items: end;
+
+}
+
+.texp{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.forms{
+    width: 309px;
+    height: 159px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding: 40px 60px;
+    background-color: #333;
+}
+
+.forms input{
+    padding: 5px 10px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background-color: #333;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.forms input::placeholder{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.forms a{
+    margin-top: 10px;
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: green;
 }
 
 
